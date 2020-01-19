@@ -1,3 +1,7 @@
+Podczas npm start modules oraz libraries zawierają nieużywane komponenty
+
+Pliki wygenerowane przy `ng build --prod` natywnie nie zawierają nieużywanych komponentów (zarówno na poziomie modułów jak i libraries)
+
 # ModulesFun
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
@@ -13,8 +17,3 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-
-Podczas npm start modules oraz libraries zawierają nieużywane komponenty
-
-Pliki wygenerowane przy `ng build --prod` natywnie nie zawierają nieużywanych komponentów (zarówno na poziomie modułów jak i libraries)
